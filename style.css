@@ -39,3 +39,12 @@
   margin-top: 100px;
   margin-left: 60px;
 }
+#but2 {
+  background-color: aqua;
+  border-style: solid;
+  border-color: none;
+  border-width: 0cm;
+  width: 100px;
+  padding: 10px;
+  font-weight: bold;
+}
