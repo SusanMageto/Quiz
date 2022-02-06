@@ -1,3 +1,6 @@
+.bighead {
+  background-image: url(./);
+}
 .nvb {
   display: flex;
   flex-direction: row;
