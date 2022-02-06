@@ -1,5 +1,12 @@
 .bighead {
-  background-image: url(./);
+  background-image: url(./images/thought-catalog-Nv-vx3kUR2A-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+.bighead img {
+  height: 200px;
+  width: 50px;
 }
 .nvb {
   display: flex;
