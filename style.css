@@ -1,0 +1,30 @@
+.nvb {
+  display: flex;
+  flex-direction: row;
+  margin-right: 200px;
+}
+.nvb h1 {
+  font-size: 15px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+}
+.blog {
+  margin-right: 30px;
+}
+.contact {
+  margin-right: 30px;
+}
+.aqua {
+  background-color: aqua;
+  border-style: solid;
+  border-color: none;
+  border-width: 0cm;
+  width: 100px;
+}
+.side {
+  margin-top: 100px;
+  margin-left: 60px;
+}
