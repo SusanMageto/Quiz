@@ -15,7 +15,7 @@
   margin-right: 200px;
 }
 .nvb h1 {
-  font-size: 15px;
+  font-size: 30px;
 }
 
 .head {
@@ -24,9 +24,11 @@
 }
 .blog {
   margin-right: 30px;
+  font-size: 20px;
 }
 .contact {
   margin-right: 30px;
+  font-size: 20px;
 }
 .aqua {
   background-color: aqua;
@@ -34,6 +36,7 @@
   border-color: none;
   border-width: 0cm;
   width: 100px;
+  font-size: 20px;
 }
 .side {
   margin-top: 100px;
