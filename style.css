@@ -41,6 +41,7 @@
 .side {
   margin-top: 100px;
   margin-left: 60px;
+  font-size: 40px;
 }
 #but2 {
   background-color: aqua;
@@ -53,4 +54,9 @@
 }
 #nothing {
   height: 30px;
+}
+#message {
+  color: blue;
+  font-size: 30px;
+  font-weight: bold;
 }
