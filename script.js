@@ -24,7 +24,7 @@ function lastButton() {
     message = 'Average'
   }
   if (marks < 3) {
-    message == "Below Average, please retake the quiz!"
+    message = "Below Average, please retake the quiz!"
   }
 
   document.getElementById("message").textContent = message
