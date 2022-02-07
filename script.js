@@ -17,13 +17,13 @@ function lastButton() {
 
   var message
 
-  if (marks == 4){
+  if (marks >= 4){
     message = 'Excellent'
   }
-  if (marks == 3){
+  if (marks >= 3 && marks < 4){
     message = 'Fair'
   }
-  if (marks == 2) {
+  if (marks < 3) {
     message == "Below Average, please retake the quiz!"
   }
 
