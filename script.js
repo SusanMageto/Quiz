@@ -5,7 +5,7 @@ function lastButton() {
   var correctAnswer3=document.questions.qn3.value;
   var correctAnswer4=document.questions.qn4.value;
   var correctAnswer5=document.questions.qn5.value;
-  var nothing=document.getElementById("empty");
+  var nothing=document.getElementById("nothing");
   if (correctAnswer1=="Object Oriented Language"){marks++};
   if (correctAnswer2=="Both A and B"){marks++};
   if (correctAnswer3=="Both A and B"){marks++};
@@ -14,5 +14,21 @@ function lastButton() {
 
   nothing.textContent=marks;
   questions.style.display="none";
-  
+
+  var message
+
+  if (marks == 4){
+    message = 'Excellent'
+  }
+  if (marks == 3){
+    message = 'Fair'
+  }
+
+  document.getElementById("message").textContent = message
+
 }
+
+var form = document.getElementById("qq");
+form.addEventListener("submit", function(e){
+  e.preventDefault()
+})
